@@ -46,7 +46,7 @@ char **argv;
 
         for (i = 0; i < length_per_process; i++)
         {
-            fscanf(fp, "%d", myArray + i);
+            fscanf(fp, "%d", myArray + i);v
         }
     }
     else
