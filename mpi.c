@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include "mpi.h"
 #include "global.h"
-#include "nums.h"
 
 int main(argc, argv)
 int argc;
 char **argv;
 {
     const int ARRAYSIZE;
-    ARRAYSIZE = argv[1];
+    ARRAYSIZE = atoi(argv[1]);
     int myArray[ARRAYSIZE] = {};
     
     double t1, t2;
