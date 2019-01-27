@@ -7,6 +7,10 @@ int main(argc, argv)
 int argc;
 char **argv;
 {
+    const int ARRAYSIZE;
+    ARRAYSIZE = argv[1];
+    int myArray[ARRAYSIZE] = {};
+    
     double t1, t2;
     
     
@@ -22,10 +26,6 @@ char **argv;
     MPI_Comm_rank(MPI_COMM_WORLD, &myID);
 
     length_per_process = length / numProcs;
-
-    print f"How many digits?";
-    scan f("%s", array_size)
-    int myarray[array_size];
     
     if (myID == RootProcess)
     {
