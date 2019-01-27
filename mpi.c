@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "mpi.h"
-#include "globals.h"
+#include "global.h"
 #include "nums.h"
 
 int main(argc, argv)
