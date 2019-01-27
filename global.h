@@ -1,4 +1,4 @@
-tdefine RootProcess 0 int length;
+#define RootProcess 0 int length;
 int length_per_process;
 int myStart;
 int myCount=0;

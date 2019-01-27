@@ -6,8 +6,7 @@ int main(argc, argv)
 int argc;
 char **argv;
 {
-    const int ARRAYSIZE;
-    ARRAYSIZE = atoi(argv[1]);
+    const int ARRAYSIZE = atoi(argv[1]);
     int myArray[ARRAYSIZE] = {};
     
     double t1, t2;
